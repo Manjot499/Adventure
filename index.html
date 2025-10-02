@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">Adventure</h1>
+        <ul class="nav-links">
+            <!-- ul: unordered list -->
+            <li class="active">
+                <!-- li: listed items -->
+                <a href="#home">Home</a>
+            </li>
+
+            <li>
+                <a href="#explore_sec">Explore</a>
+            </li>
+
+             <li>
+                <a href="#tours_sec">Tours</a>
+            </li>
+
+             <li>
+                <a href="#footer_sec">About</a>
+            </li>
+
+             <li class="ctn">
+                <a href="#">Contact</a>
+            </li>
+        </ul>
+        <img src="./img/menu-btn.png" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore the Colorful World</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+
+    <section class="events"> 
+        <!-- event: something that triggers an action -->
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./img/img1.png">
+                <h4>Everest Camp Trek</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt itaque quibusdam quaerat dolor eveniet quam magni nobis vero esse aperiam ratione porro deleniti, repellendus tenetur corrupti adipisci qui dolores quasi?</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="./img/img2.png">
+                <h4>Walking on Holidays</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus reiciendis quas magni saepe iure nostrum dolore possimus sunt, velit magnam harum excepturi dolorum aspernatur. Culpa quis asperiores minus fuga. Provident.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+<section id="explore_sec" class="explore">
+    <div class="explore-content">
+        <h1>Explore the World</h1>
+        <div class="line"></div>
+        <p>Exploring the world is more than just visiting new places; it’s about experiencing different cultures, cuisines, and ways of life. Every journey opens your eyes to new perspectives and unforgettable adventures. From bustling cities to tranquil landscapes, there’s a story waiting to be discovered at every corner. Traveling helps you grow, learn, and create memories that last a lifetime. Whether it’s a short trip or a long expedition, the world is full of wonders ready to be explored. Adventure, curiosity, and discovery await those who dare to step beyond their comfort zone.</p>
+        <a href="#" class="ctn">Learn More</a>
+    </div>
+</section>
+   
+
+    <section id="tours_sec" class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>Upcoming Tours and Destinations</h1>
+                <p>Discover the most exciting upcoming tours and destinations for your next adventure. From exotic beaches to majestic mountains, there’s something for every traveler. Stay ahead with the latest travel trends and explore hidden gems around the world. Whether you’re seeking relaxation, culture, or adventure, these destinations promise unforgettable experiences. Planning ahead means more time to enjoy every moment and make memories that last a lifetime. Get ready to pack your bags and embark on journeys that inspire and excite.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="./img/img3.png" alt="img3">
+                    <img src="./img/img4.png" alt="img4">
+                    <img src="./img/img5.png" alt="img5">
+                    <img src="./img/img6.png" alt="img6">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" style="padding:50px 20px; background:#f9f9f9; font-family:Arial, sans-serif;">
+      <h2 style="text-align:center; color:#333;">Get in Touch</h2>
+      <p style="text-align:center; color:#555; max-width:600px; margin:10px auto 40px;">We would love to hear from you! Whether you have questions, suggestions, or want to collaborate fill out the form below and we will get back to you as soon as possible.</p>
+      <form action="https://formspree.io/f/mjkenkog" method="POST" style="max-width:600px; margin:0 auto; display:flex; flex-direction:column; gap:15px;">
+        <input name="name" type="text" placeholder="Your Name" required style="padding:10px; border:1px solid #ccc; border-radius:5px; font-size:16px;">
+     
+        <input name="email" type="email" placeholder="Your Email" required style="padding:10px; border:1px solid #ccc; border-radius:5px; font-size:16px;">
+        <textarea name="message" rows="5" placeholder="Your message" required style="padding:10px; border:1px solid #ccc; border-radius:5px; font-size:16px;"></textarea>
+        <button type="submit" style="padding:12px; background:#007Bff; color:white; border:none; border-radius:5px; font-size:16px; cursor:pointer;">
+            Send Message
+        </button>
+      </form>
+      <p style="text-align:center; color:#777; margin-top:30px;">Or reach us directly at <a href="mailto:bangermanjot5@gmail.com">bangermanjot5@gmail.com</a></p>
+    </section>
+    
+    <script src="main.js"></script>
+</body>
+</html>
